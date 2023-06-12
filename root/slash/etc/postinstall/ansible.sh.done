@@ -1,0 +1,12 @@
+if [ ! -f /etc/ansible/ansible.cfg ]
+then
+    /usr/bin/mkdir -p /etc/ansible
+    /usr/bin/cp /etc/defaults/etc/ansible/ansible.cfg /etc/ansible/ansible.cfg
+fi
+
+if [ ! -f /etc/ansible/hosts ]
+then
+    /usr/bin/mkdir -p /etc/ansible
+    /usr/bin/cp /etc/defaults/etc/ansible/hosts /etc/ansible/hosts
+fi
+

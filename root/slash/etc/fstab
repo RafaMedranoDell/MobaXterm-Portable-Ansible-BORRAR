@@ -1,0 +1,3 @@
+none            /drives   cygdrive    binary,auto,user,posix=0   0   0
+C:/Users/ADMINI~1/DOWNLO~1/MOBAXT~1/home            /home/mobaxterm   ntfs    binary,auto,user,posix=0           0   0
+C:/Users/ADMINI~1/DOWNLO~1/MOBAXT~1/home            /home/administrator   ntfs    binary,auto,user,posix=0           0   0

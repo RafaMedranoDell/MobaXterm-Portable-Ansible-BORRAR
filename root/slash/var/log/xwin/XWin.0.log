@@ -1,0 +1,70 @@
+Welcome to the XWin X Server
+Vendor: Moba/X
+Release: 1.21.1.3
+OS: Windows 10 Server  [Windows NT 10.0 build 14393] x86-on-x64
+Package: version  built 2022-03-26
+
+XWin was started with the following command line:
+
+
+ C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash\bin\XWin_MobaX.exe 
+ -silent-dup-error -notrayicon -nolisten inet6 -hostintitle +bs 
+ -clipboard -nowgl -multiwindow -noreset :0 
+
+ddxProcessArgument - Initializing default screens
+winInitializeScreenDefaults - primary monitor w 1536 h 692
+(==) FontPath set to /usr/share/fonts/misc/
+(==) FontPath set to C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash/usr/share/fonts/misc/
+(==) FontPath set to /usr/share/fonts/TTF/
+(==) FontPath set to C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash/usr/share/fonts/TTF/
+(==) FontPath set to /usr/share/fonts/OTF/
+(==) FontPath set to C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash/usr/share/fonts/OTF/
+(==) FontPath set to /usr/share/fonts/Type1/
+(==) FontPath set to C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash/usr/share/fonts/Type1/
+(==) FontPath set to /usr/share/fonts/100dpi/
+(==) FontPath set to C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash/usr/share/fonts/100dpi/
+(==) FontPath set to /usr/share/fonts/75dpi/
+(==) FontPath set to C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash/usr/share/fonts/75dpi/
+(==) FontPath set to "C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash/usr/share/fonts/misc/,C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash/usr/share/fonts/TTF/,C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash/usr/share/fonts/OTF/,C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash/usr/share/fonts/Type1/,C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash/usr/share/fonts/100dpi/,C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash/usr/share/fonts/75dpi/"
+(==) Setting XKEYSYMDB path to XKEYSYMDB=C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash\usr\share\X11\XKeysymDB
+(==) Setting XERRORDB path to XERRORDB=C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash\usr\share\X11\XErrorDB
+(==) Setting XLOCALEDIR path to XLOCALEDIR=C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash\usr\share\X11\locale
+(==) Logfile set to "C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash\var\log\xwin\XWin.0.log"
+(==) Setting XKB path to C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash\usr\share\X11\xkb
+[ 11921.343] winUpdateDpi - primary monitor native DPI x 96 y 96
+[ 11921.359] winDetectSupportedEngines - RemoteSession: no
+[ 11921.359] winDetectSupportedEngines - DirectDraw4 installed, allowing ShadowDDNL
+[ 11921.359] winDetectSupportedEngines - Returning, supported engines 00000005
+[ 11921.359] winSetEngine - Multi Window or Rootless => ShadowGDI
+[ 11921.359] winScreenInit - Using Windows display depth of 32 bits per pixel
+[ 11921.359] winAllocateFBShadowGDI - Creating DIB with width: 1536 height: 692 depth: 32
+[ 11921.359] winFinishScreenInitFB - Masks: 00ff0000 0000ff00 000000ff
+[ 11921.359] winInitVisualsShadowGDI - Masks 00ff0000 0000ff00 000000ff BPRGB 8 d 24 bpp 32
+[ 11921.390] (II) IGLX: Loaded and initialized swrast
+[ 11921.390] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[ 11921.453] (II) [XKB]  "C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash\var\log\xwin\xkb_a04560" file successfully created.
+[ 11921.453] (II) [XKB]  Launching xkbcomp.exe with the following command:
+[ 11921.453] (II) [XKB]  "C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash\bin\xkbcomp_w32.exe" -w 1 "-RC:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash\usr\share\X11\xkb" -xkm "C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash\var\log\xwin\xkb_a04560" -em1 "The XKEYBOARD keymap compiler (xkbcomp) reports:" -emp "> " -eml "Errors from xkbcomp are not fatal to the X server" "C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash\var\log\xwin\server-0.xkm"
+[ 11921.453] (II) [XKB]  LaunchXkbComp(II) :  succeeded
+[ 11921.515] (II) [XKB]  Successfully created keyboard mapping file "C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash\var\log\xwin\xkb_a04560"
+[ 11921.515] winPointerWarpCursor - Discarding first warp: 768 346
+[ 11921.515] (--) 3 mouse buttons found
+[ 11921.515] (--) Setting autorepeat to delay=500, rate=31
+[ 11921.515] (--) Windows keyboard layout: "0000040A" (0000040a) "Spanish", type 7
+[ 11921.515] (--) Found matching XKB configuration "Spanish (Spain,Traditional Sort)"
+[ 11921.515] (--) Model = "pc105" Layout = "es" Variant = "none" Options = "none"
+[ 11921.515] Rules = "base" Model = "pc105" Layout = "es" Variant = "none" Options = "none"
+[ 11921.515] (II) [XKB]  "C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash\var\log\xwin\xkb_a04560" file successfully created.
+[ 11921.515] (II) [XKB]  Launching xkbcomp.exe with the following command:
+[ 11921.515] (II) [XKB]  "C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash\bin\xkbcomp_w32.exe" -w 1 "-RC:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash\usr\share\X11\xkb" -xkm "C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash\var\log\xwin\xkb_a04560" -em1 "The XKEYBOARD keymap compiler (xkbcomp) reports:" -emp "> " -eml "Errors from xkbcomp are not fatal to the X server" "C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash\var\log\xwin\server-0.xkm"
+[ 11921.515] (II) [XKB]  LaunchXkbComp(II) :  succeeded
+[ 11921.562] (II) [XKB]  Successfully created keyboard mapping file "C:\Users\ADMINI~1\DOWNLO~1\MOBAXT~1\root\slash\var\log\xwin\xkb_a04560"
+[ 11921.562] winInitMultiWindowWM - DISPLAY=127.0.0.1:0.0
+[ 11921.562] winMultiWindowXMsgProc - DISPLAY=127.0.0.1:0.0
+[ 11921.578] winMultiWindowXMsgProc - xcb_connect() returned and successfully opened the display.
+[ 11921.578] winProcEstablishConnection - winInitClipboard returned.
+[ 11921.578] Using Composite redirection
+[ 11921.578] winInitMultiWindowWM - xcb_connect () returned and successfully opened the display.
+[ 11921.578] winClipboardThreadProc - DISPLAY=127.0.0.1:0.0
+[ 11921.578] winClipboardProc - xcb_connect () returned and successfully opened the display.
+[ 11926.046] winWindowProc - WM_EXITSIZEMOVE
